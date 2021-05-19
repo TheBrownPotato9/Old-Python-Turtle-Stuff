@@ -1,0 +1,115 @@
+def draw_square():
+
+    forward(0)
+
+length = 10
+
+for i in range(4):
+
+    forward(length)
+
+    right(90)
+
+forward(20)
+
+for i in range(4):
+
+    forward(length*2)
+
+    right(90)
+
+forward(40)
+
+for i in range(4):
+
+    forward(length*3)
+
+    right(90)
+
+forward(60)
+
+for i in range(4):
+
+    forward(length*4)
+
+    right(90)
+
+forward(80)
+
+for i in range(4):
+
+    forward(length*5)
+
+    right(90)
+    
+    
+    radius = 25
+
+def mars_to_be():
+
+    forward(0)
+
+for i in range(1):
+
+    circle(radius)
+
+    penup()
+
+    setposition(0,-10)
+
+    pendown()
+
+    circle(radius*2)
+
+    penup()
+
+    setposition(0,-20)
+
+    pendown()
+
+    circle(radius*3)
+
+    penup()
+
+    setposition(0,-30)
+
+    pendown()
+
+    circle(radius*4)
+    
+    def fill_the_circle(color_choice):
+
+    for i in range(12):
+
+        pendown()
+
+        begin_fill()
+
+        color(color_choice)
+
+        circle(10)
+
+        end_fill()
+
+        penup()
+
+        #forward(20)
+
+        left(10)
+        
+        pensize(5)
+penup()
+setposition(-100,0)
+color("red")
+pendown()
+forward(150)
+def draw_triangles():
+    color("blue")
+    left(120)
+    forward(60)
+    left(120)
+    color("green")
+    forward(60)
+    left(120)
+for i in range(4):
+    draw_triangles()
